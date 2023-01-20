@@ -21,7 +21,7 @@ header {
 }
 
 #logo {
-    width: max(150px);
+    width: max(200px);
     aspect-ratio: 30 / 15;
     padding: 0.5rem;
 }
