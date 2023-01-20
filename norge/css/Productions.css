@@ -1,6 +1,6 @@
 body {
     background-color: #000000;
-    font-family: Frutiger Lt Std;
+    font-family: 'Frutiger Lt Std', sans-serif;
     color: #ffffff;
     margin: 0;
 }
@@ -91,9 +91,9 @@ button {
     cursor: pointer;
 }
 
-.button__text {
-    
-}
+button:hover {
+    cursor:pointer
+} 
 
 .see_more {
     padding: 50px;
