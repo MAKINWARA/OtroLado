@@ -30,8 +30,10 @@ h1 {
     color: #d86b1f;
     font-size: min(10vw, 2em);
     text-align: center;
+}
+
+h1 h2 {
     font-family: 'Raleway', sans-serif;
-    
 }
 
 
