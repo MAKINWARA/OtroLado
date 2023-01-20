@@ -91,6 +91,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    cursor:pointer
+} 
+
 .button__text {
     
 }
