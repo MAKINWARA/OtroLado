@@ -84,17 +84,16 @@ main {
     padding-top: 50px;
 }
 
-button {
+.button {
     display: flex;
-    height: 25px;
-    padding: 0;
-    background-color: #ffffff;
-    border: 30px;
+    height: 30px;
+    padding: 0, 3px;
+    background-color: #000000;
+    border: solid 2px;
     border-color: #d86b1f;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
-    outline: #d86b1f;
-    outline-width: 5px;
+    outline: none;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -103,7 +102,16 @@ button {
 
 button:hover {
     cursor:pointer
-} 
+}
+
+.bottontext {
+    display: flex;
+    align-items: center;
+    color: #d86b1f;
+    font-size: 18px;
+    padding: 0, 2px;
+    height: 100% ;
+}
 
 .see_more {
     padding: 50px;
