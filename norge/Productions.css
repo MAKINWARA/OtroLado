@@ -1,6 +1,11 @@
+@font-face {
+    src: url(Fonts/FrutigerLTStd-Black.otf);
+    font-family: 'Frutiger';
+}
+
 body {
     background-color: #000000;
-    font-family: 'Frutiger Lt Std', sans-serif;
+    font-family: 'Frutiger';
     color: #ffffff;
     margin: 0;
 }
@@ -23,8 +28,10 @@ header {
 
 h1 {
     color: #d86b1f;
-    font-size: min(5vw, 1.2em);
+    font-size: min(10vw, 2em);
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
 }
 
 
