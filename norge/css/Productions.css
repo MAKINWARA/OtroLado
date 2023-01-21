@@ -92,11 +92,11 @@ main {
 }
 
 img {
-    width: 80%;
-    max-width: 250px;
-    height: 200px;
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
     object-fit: cover;
-    padding: 20px;
+    padding: 50px;
 }
 
 .button {
