@@ -1,3 +1,8 @@
+@font-face {
+    font-family: frutiger;
+    src: url(FrutigerLTStd-Cn.otf) format("opentype");
+}
+
 body {
     background-color: #000000;
     font-family: 'Frutiger';
@@ -27,6 +32,10 @@ header {
 h1,
 h2 {
     font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: frutiger;
 }
 
 nav {
