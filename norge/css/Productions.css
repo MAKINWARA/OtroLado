@@ -116,3 +116,21 @@ button:hover {
 .see_more {
     padding: 50px;
 }
+
+footer {
+    width: 100%;
+    font-size: 30px;
+    height: 30px;
+    color: #d86b1f;
+    border: 1px solid #d86b1f;
+    text-align: center;
+    padding: 5px;
+}
+
+.icon {
+    padding: 2px;
+    margin: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
