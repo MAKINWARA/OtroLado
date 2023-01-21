@@ -59,21 +59,25 @@ nav > ul {
 }
 
 nav > ul > li {
-    color: #ffffff;
     margin: 0 0.2rem;
     padding: 0.2rem;
     display: block;
 }
 
-nav > ul > li:hover {
-    text-decoration: dotted;
-    color: #1b1b32;
-    cursor: pointer;
-}
-
 li > a {
     color: #ffffff;
     text-decoration: none;
+}
+
+li >a:hover {
+    text-decoration: underline;
+    color: #d86b1f;
+    cursor: pointer;
+}
+
+li >a:active {
+    color: #d86b1f;
+    cursor: pointer;
 }
 
 .pro {
