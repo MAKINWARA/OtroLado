@@ -122,9 +122,28 @@ footer {
     font-size: 30px;
     height: 30px;
     color: #d86b1f;
-    border: 1px solid #d86b1f;
     text-align: center;
     padding: 5px;
+}
+.contact_us {
+   font-size: 25px; 
+}
+
+footer > div > p {
+    font-size: 20px;
+}
+
+
+div > span > a {
+    color: #d86b1f;
+}
+
+div > span > a:hover {
+    color: #ffffff;
+}
+
+div > span > a:active{
+    color: #ffffff;
 }
 
 .icon {
