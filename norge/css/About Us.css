@@ -95,13 +95,13 @@ section {
 
 .square {
     position: relative;
-    margin: 10px 35px 10px 35px;
+    margin: 10px 40px 10px 40px;
 }
 
 img {
     width: 100%;
-    max-width: 350px;
-    height: 300px;
+    max-width: 275px;
+    height: 225px;
     object-fit: cover;
 }
 
