@@ -1,6 +1,6 @@
 @font-face {
     font-family: frutiger;
-    src: url(FrutigerLTStd-Cn.otf) format("opentype");
+    src: url(../fonts/Frutiger/FrutigerLTStd-Cn.otf) format("opentype");
 }
 
 body {
