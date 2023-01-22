@@ -86,7 +86,7 @@ section {
 
 .square {
     position: relative;
-    margin: 10px;
+    margin: 10px 35px 10px 35px;
 }
 
 img {
