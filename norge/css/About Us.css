@@ -102,7 +102,7 @@ img {
     width: 100%;
     max-width: 275px;
     height: 225px;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 .img1 {
