@@ -16,12 +16,12 @@ header {
 }
 
 #logo {
-    width: max(300px);
-    height: max(150px);
+    width: max(350px);
+    height: max(200px);
     aspect-ratio: 30 / 15;
     padding: 10px, 0;
     margin-left: -40px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 h1,
