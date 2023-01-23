@@ -10,7 +10,6 @@ html {
 }
 
 header {
-    border: 2px solid #ffffff;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -25,7 +24,6 @@ nav {
     width: 720px;
     height: 50px;
     font-size: 22px;
-    border: 2px solid #d86b1f;
 }
 
 nav>ul {
@@ -64,13 +62,11 @@ a:active {
     height: 400px;
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid #d86b1f;
 }
 
 .img_news>div {
     margin-left: 50px;
     margin-top: 30px;
-    border: 1px solid #d86b1f;
 }
 
 .img_news>div>h1 {
@@ -89,8 +85,7 @@ a:active {
 .img_news>div>h4 {
     max-width: 85%;
     text-align: left;
-    margin-top: 50px;
-    border: 1px solid #ffffff;
+    margin-top: 40px;
 }
 
 .see_more {
@@ -106,7 +101,6 @@ a:active {
     overflow: hidden;
     outline: none;
     font-family: frutiger;
-    font-size: 16px;
     background-color: #000;
 }
 
@@ -119,14 +113,12 @@ button:hover {
     align-items: center;
     color: #d86b1f;
     font-size: 18px;
-    padding: 0, 2px;
     height: 100%;
 }
 
 .heads {
     max-width: 100%;
     height: 399px;
-    border: 1px solid #ffffff;
 }
 
 .calendar {
