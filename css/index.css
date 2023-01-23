@@ -61,8 +61,20 @@ a:active {
 }
 
 .img_news {
-    height: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
     border: 2px solid #d86b1f;
+}
+
+.img_news>div {
+    border: 1px solid #d86b1f;
+}
+
+.heads {
+    max-width: 100%;
+    height: 399px;
+    border: 1px solid #ffffff;
 }
 
 .calendar {
