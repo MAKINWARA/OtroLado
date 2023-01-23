@@ -26,6 +26,7 @@ nav {
     width: 720px;
     height: 50px;
     font-size: 22px;
+    margin-right: 10px;
 }
 
 nav>ul {
@@ -63,14 +64,18 @@ a:active {
 .img_news {
     margin-top: 30px;
     margin-right: 30px;
-    height: 400px;
+    height: 650px;
     display: flex;
     justify-content: space-evenly;
+    border: 2px solid #ffffff;
 }
 
 .img_news>div {
+    position: relative;
+    left: 20px;
     margin-left: 60px;
     margin-top: 30px;
+    border: 1px solid #d86b1f;
 }
 
 .img_news>div>h1 {
@@ -122,7 +127,8 @@ button:hover {
 
 .heads {
     max-width: 100%;
-    height: 399px;
+    height: 649px;
+    border: 1px solid #d86b1f;
 }
 
 .calendar {
