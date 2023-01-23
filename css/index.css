@@ -59,6 +59,7 @@ a:active {
 }
 
 .img_news {
+    margin-top: 30px;
     height: 400px;
     display: flex;
     justify-content: space-evenly;
