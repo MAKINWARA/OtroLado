@@ -60,6 +60,7 @@ a:active {
 
 .img_news {
     margin-top: 30px;
+    margin-right: 30px;
     height: 400px;
     display: flex;
     justify-content: space-evenly;
