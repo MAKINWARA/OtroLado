@@ -1,6 +1,11 @@
 @font-face {
     font-family: frutiger;
-    src: url(../fonts/Frutiger/FrutigerLTStd-Cn.otf) format("opentype");
+    src: url(../fonts/Frutiger/FrutigerLTStd-Cn.otf) format(opentype);
+}
+
+@font-face {
+    font-family: frutiger_italic;
+    src: url(../fonts/Frutiger/FrutigerLTStd-LightItalic.otf) format(opentype);
 }
 
 html {
@@ -147,6 +152,28 @@ button:hover {
 }
 
 .last_photo {
-    height: 100px;
-    border: 2px solid #d86b1f;
+    position: relative;
+    height: 650px;
+    max-width: 100%;
+    margin-left: -5px;
+}
+
+#bailarina {
+    max-width: 100%;
+    height: 649px;
+}
+
+.last_photo>div {
+    position: absolute;
+    right: 60px;
+    bottom: 100px;
+    max-width: 60%;
+}
+
+.last_photo>div>p {
+    font-family: frutiger_italic;
+}
+
+.last_photo>div>h1 {
+    margin-left: 60%;
 }

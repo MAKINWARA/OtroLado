@@ -147,7 +147,6 @@ button:hover {
 
 footer {
     width: 100%;
-    font-size: 30px;
     height: 30px;
     color: #d86b1f;
     text-align: center;
@@ -155,29 +154,31 @@ footer {
 }
 
 .contact_us {
-    font-size: 25px;
-}
-
-footer>div>p {
     font-size: 20px;
 }
 
-
-div>span>a {
-    color: #d86b1f;
+.contact_us>h2 {
+    font-size: 25px;
 }
 
-div>span>a:hover {
+
+footer>div>span>a {
+    color: #d86b1f;
+    font-size: 30px;
+}
+
+footer>div>span>a:hover {
     color: #ffffff;
 }
 
-div>span>a:active {
+footer>div>span>a:active {
     color: #ffffff;
 }
 
 .icon {
-    padding: 2px;
+    padding: 5px;
     margin: auto;
     max-width: 100px;
     max-height: 100px;
 }
+
