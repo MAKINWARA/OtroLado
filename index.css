@@ -1,0 +1,33 @@
+@font-face {
+    font-family: frutiger;
+    src: url(../fonts/Frutiger/FrutigerLTStd-Cn.otf) format("opentype");
+}
+
+nav {
+    height: 50px;
+    border: 2px solid #d86b1f;
+}
+
+.img_news {
+    height: 100px;
+    border: 2px solid #d86b1f;
+}
+
+.calendar {
+    text-align: center;
+    height: 400px;
+    border: 2px solid #d86b1f;
+}
+
+.calendar>div {
+    margin-top: 8px;
+    display: inline-block;
+    height: 180px;
+    width: 49%;
+    border: 2px solid #000;
+}
+
+.last_photo {
+    height: 100px;
+    border: 2px solid #d86b1f;
+}
