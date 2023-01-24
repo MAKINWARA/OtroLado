@@ -71,11 +71,11 @@ nav>ul>li {
     padding: 7px 4px;
 }
 
-.menu li:hover {
+.menu li a:hover {
     transition: all .3s;
 }
 
-.menu li:hover .submenu {
+.menu li a:hover .submenu {
     visibility: visible;
     opacity: 1;
 }
