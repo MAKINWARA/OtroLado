@@ -15,7 +15,8 @@ html {
 }
 
 header {
-    height: 60px;
+    max-width: 100%;
+    height: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -49,6 +50,33 @@ nav>ul>li {
     padding: 0.8rem;
     display: block;
     font-family: Raleway;
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    font-size: 16px;
+    visibility: visible;
+    list-style: none;
+    padding: 15px;
+    margin-left: -17px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu>li {
+    display: block;
+    padding: 4px;
+}
+
+.menu li:hover {
+    transition: all .3s;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
 }
 
 a {
