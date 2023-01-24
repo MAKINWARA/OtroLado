@@ -16,7 +16,7 @@ html {
 
 header {
     max-width: 100%;
-    height: 120px;
+    height: 130px;
     display: flex;
     justify-content: space-between;
 }
@@ -68,7 +68,7 @@ nav>ul>li {
 
 .submenu>li {
     display: block;
-    padding: 4px;
+    padding: 7px 4px;
 }
 
 .menu li:hover {
